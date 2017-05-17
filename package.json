@@ -1,0 +1,57 @@
+{
+  "name": "spike-contentful-folder",
+  "description": "spike contentful test",
+  "version": "0.0.1",
+  "author": "aman01",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "test": "nyc ava"
+  },
+  "ava": {
+    "verbose": "false",
+    "failWithoutAssertions": "false",
+    "require": [
+      "babel-register"
+    ]
+  },
+  "bugs": "https://github.com/aman01/spike-contentful/issues",
+  "dependencies": {
+    "babel-preset-env": "^1.4.0",
+    "bootstrap": "^3.3.7",
+    "hoverintent-jqplugin": "^0.2.1",
+    "jquery": "^1.12.4",
+    "moment": "^2.18.1",
+    "reshape-standard": "^1.0.0",
+    "spike": "^1.0.0",
+    "spike-contentful": "^1.0.0",
+    "spike-css-standards": "^1.0.0",
+    "spike-js-standards": "^1.0.0",
+    "spike-page-id": "^1.0.0",
+    "webpack": "^2.3.3",
+    "yarn": "^0.22.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "ava-jspm-loader": "^1.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "jsdom": "^10.1.0",
+    "nyc": "^10.3.2",
+    "phantomjs": "^2.1.7",
+    "rimraf": "^2.6.0",
+    "sinon": "^2.2.0",
+    "snazzy": "^6.0.0",
+    "spike-core": "^1.0.0",
+    "standard": "^10.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "homepage": "https://github.com/aman01/spike-contentful",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/aman01/spike-contentful"
+}
